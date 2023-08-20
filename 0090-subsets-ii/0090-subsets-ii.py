@@ -6,8 +6,7 @@ class Solution:
         
         def dfs(depth):
             if depth >= len(nums):
-                if not res or res and res[-1] != sub[:]:
-                    res.append(sub[:])
+                res.append(sub[:])
                 return 
             sub.append(nums[depth])
             if not res or res[-1] != sub:

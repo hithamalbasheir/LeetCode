@@ -1,5 +1,5 @@
 class Solution:
-    def findMaximizedCapital(self, k: int, w: int, profits: List[int], capitals: List[int]) -> int:
+    def findMaximizedCapital(self, k: int, c: int, profits: List[int], capitals: List[int]) -> int:
         n = len(capitals)
         capitals_heap = []
         for i in range(n):

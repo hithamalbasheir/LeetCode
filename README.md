@@ -48,6 +48,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1137-height-checker](https://github.com/hithamalbasheir/LeetCode/tree/master/1137-height-checker) |
 | [1217-relative-sort-array](https://github.com/hithamalbasheir/LeetCode/tree/master/1217-relative-sort-array) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/hithamalbasheir/LeetCode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
+| [1675-magnetic-force-between-two-balls](https://github.com/hithamalbasheir/LeetCode/tree/master/1675-magnetic-force-between-two-balls) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/hithamalbasheir/LeetCode/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 # Trie
 |  |
@@ -70,6 +71,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0982-minimum-increment-to-make-array-unique](https://github.com/hithamalbasheir/LeetCode/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1137-height-checker](https://github.com/hithamalbasheir/LeetCode/tree/master/1137-height-checker) |
 | [1217-relative-sort-array](https://github.com/hithamalbasheir/LeetCode/tree/master/1217-relative-sort-array) |
+| [1675-magnetic-force-between-two-balls](https://github.com/hithamalbasheir/LeetCode/tree/master/1675-magnetic-force-between-two-balls) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/hithamalbasheir/LeetCode/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 # Counting Sort
 |  |
@@ -85,3 +87,4 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/hithamalbasheir/LeetCode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
+| [1675-magnetic-force-between-two-balls](https://github.com/hithamalbasheir/LeetCode/tree/master/1675-magnetic-force-between-two-balls) |

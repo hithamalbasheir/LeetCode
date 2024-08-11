@@ -19,14 +19,12 @@ class Solution:
                     if (i, j) not in seen and grid[i][j] == 1:
                         dfs(i, j, seen)
                         res += 1
-            print(res)
             return res
 
         #Trying No changes
         if ((num_island := get_islands(grid)) == 0) or num_island > 1:
             return 0
 
-        print("*")
         #Trying to change one element
         for i in range(rows):
             for j in range(cols):
@@ -36,5 +34,4 @@ class Solution:
                     if num_islands == 0 or num_islands > 1:
                         return 1
                     grid[i][j] = 1
-        print("**")
         return 2

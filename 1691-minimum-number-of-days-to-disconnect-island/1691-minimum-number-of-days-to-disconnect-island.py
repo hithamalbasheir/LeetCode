@@ -22,7 +22,7 @@ class Solution:
             return res
 
         #Trying No changes
-        if ((num_island := get_islands(grid)) == 0) or num_island > 1:
+        if get_islands(grid) != 1:
             return 0
 
         #Trying to change one element
@@ -31,7 +31,7 @@ class Solution:
                 if grid[i][j] == 1:
                     grid[i][j] = 0
                     num_islands = get_islands(grid)
-                    if num_islands == 0 or num_islands > 1:
+                    if num_islands != 1:
                         return 1
                     grid[i][j] = 1
         return 2

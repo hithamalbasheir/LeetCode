@@ -1,35 +1,25 @@
 class Solution:
     def maxProbability(self, n: int, edges: List[List[int]], succProb: List[float], start_node: int, end_node: int) -> float:
-        #Heap, dijkstra shortest path
+        res = 0.0
         adj = defaultdict(list)
+        for i in range(len(edges)):
+            src, dest = edges[i]
+            adj[src].append((dest, succProb[i]))
+            adj[dest].append((src, succProb[i]))
         
-        for i, path in enumerate(edges):
-            src, dest = path
-            adj[src].append([dest, succProb[i]])
-            adj[dest].append([src, succProb[i]])
 
-        #Starting from best possible probability (which is one), negating all values to make it a max heap
-        pq = [(-1, start_node)]
+        max_heap = [(-1.0, start_node)]
+        max_prob = {start_node: 1.0}
 
-        visited = set()
-
-        while pq:
-            prob, path = heapq.heappop(pq)
-            visited.add(path)
-
-            if path == end_node:
-                return prob * -1
+        while max_heap:
+            prob, node = heappop(max_heap)
+            prob = -prob
+            if node == end_node:
+                return prob
             
-            for nei, currProb in adj[path]:
-                if nei not in visited:
-                    heapq.heappush(pq, (prob * currProb, nei))
-        return 0
-
-
-        
-
-        
-
-
-        
-
+            for nbr, nbr_prob in adj[node]:
+                new_prob = prob * nbr_prob
+                if new_prob > max_prob.get(nbr, 0):
+                    heappush(max_heap, (-new_prob, nbr))
+                    max_prob[nbr] = new_prob
+        return 0.0

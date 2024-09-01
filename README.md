@@ -237,6 +237,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0264-ugly-number-ii](https://github.com/hithamalbasheir/LeetCode/tree/master/0264-ugly-number-ii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/hithamalbasheir/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/hithamalbasheir/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0726-number-of-atoms](https://github.com/hithamalbasheir/LeetCode/tree/master/0726-number-of-atoms) |
 | [0870-magic-squares-in-grid](https://github.com/hithamalbasheir/LeetCode/tree/master/0870-magic-squares-in-grid) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/hithamalbasheir/LeetCode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
@@ -328,6 +329,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0273-integer-to-english-words](https://github.com/hithamalbasheir/LeetCode/tree/master/0273-integer-to-english-words) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/hithamalbasheir/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0592-fraction-addition-and-subtraction](https://github.com/hithamalbasheir/LeetCode/tree/master/0592-fraction-addition-and-subtraction) |
 | [0726-number-of-atoms](https://github.com/hithamalbasheir/LeetCode/tree/master/0726-number-of-atoms) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/hithamalbasheir/LeetCode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
@@ -433,6 +435,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sliding Window
 |  |
 | ------- |
+| [0438-find-all-anagrams-in-a-string](https://github.com/hithamalbasheir/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [1046-max-consecutive-ones-iii](https://github.com/hithamalbasheir/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/hithamalbasheir/LeetCode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 ## Strongly Connected Component

@@ -1,14 +1,11 @@
 class Solution:
     def xorQueries(self, arr: List[int], queries: List[List[int]]) -> List[int]:
         res = []
-        memo = {}
+        prefix = [0]
+        for num in arr:
+            xor = prefix[-1] ^ num
+            prefix.append(xor)
         for left, right in queries:
-            if ((left, right) in memo):
-                res.append(memo[(left, right)])
-                continue
-            xor = 0
-            for i in range(left, right + 1):
-                xor ^= arr[i]
-            memo[(left, right)] = xor
-            res.append(xor)
+            num = prefix[left] ^ prefix[right + 1]
+            res.append(num)
         return res

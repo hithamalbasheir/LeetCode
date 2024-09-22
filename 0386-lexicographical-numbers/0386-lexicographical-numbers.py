@@ -1,13 +1,14 @@
 class Solution:
     def lexicalOrder(self, n: int) -> List[int]:
         res = []
-        def dfs(num):
-            if num > n:
-                return
-            res.append(num)
-            num *= 10
-            for i in range(0, 10):
-                dfs(num + i)
-        for i in range(1, 10):
-            dfs(i)
+        cur = 1
+        while len(res) < n:
+            res.append(cur)
+
+            if cur * 10 <= n:
+                cur *= 10
+            else:
+                while cur == n or cur % 10 == 9:
+                    cur //= 10
+                cur += 1
         return res

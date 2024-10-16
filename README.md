@@ -337,6 +337,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0624-maximum-distance-in-arrays](https://github.com/hithamalbasheir/LeetCode/tree/master/0624-maximum-distance-in-arrays) |
 | [0890-lemonade-change](https://github.com/hithamalbasheir/LeetCode/tree/master/0890-lemonade-change) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/hithamalbasheir/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1304-longest-happy-string](https://github.com/hithamalbasheir/LeetCode/tree/master/1304-longest-happy-string) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/hithamalbasheir/LeetCode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/hithamalbasheir/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/hithamalbasheir/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
@@ -415,6 +416,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0920-uncommon-words-from-two-sentences](https://github.com/hithamalbasheir/LeetCode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/hithamalbasheir/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/hithamalbasheir/LeetCode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
+| [1304-longest-happy-string](https://github.com/hithamalbasheir/LeetCode/tree/master/1304-longest-happy-string) |
 | [1720-crawler-log-folder](https://github.com/hithamalbasheir/LeetCode/tree/master/1720-crawler-log-folder) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/hithamalbasheir/LeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/hithamalbasheir/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
@@ -492,6 +494,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0264-ugly-number-ii](https://github.com/hithamalbasheir/LeetCode/tree/master/0264-ugly-number-ii) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/hithamalbasheir/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0948-sort-an-array](https://github.com/hithamalbasheir/LeetCode/tree/master/0948-sort-an-array) |
+| [1304-longest-happy-string](https://github.com/hithamalbasheir/LeetCode/tree/master/1304-longest-happy-string) |
 | [1325-path-with-maximum-probability](https://github.com/hithamalbasheir/LeetCode/tree/master/1325-path-with-maximum-probability) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/hithamalbasheir/LeetCode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/hithamalbasheir/LeetCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |

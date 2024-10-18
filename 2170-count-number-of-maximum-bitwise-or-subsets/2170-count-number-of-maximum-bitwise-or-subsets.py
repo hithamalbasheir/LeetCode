@@ -1,27 +1,15 @@
 class Solution:
     def countMaxOrSubsets(self, nums: List[int]) -> int:
-        #Since the input is all positive the max_possible is the Bitwise OR of all elements in the array
-        def get_bitwise_or(nums):
-            bitwise_sum = 0
-            for i in nums:
-                bitwise_sum |= i
-            return bitwise_sum
-        max_possible = get_bitwise_or(nums)
-        res = 0
-
-        def dfs(depth, sub):
-            nonlocal res
-            if depth >= len(nums):
-                bit_sum = get_bitwise_or(sub)
-                if bit_sum == max_possible:
-                    res += 1
-                return
-            
-            sub.append(nums[depth])
-            dfs(depth+1, sub)
-
-            sub.pop()
-            dfs(depth+1, sub)
+        max_or = 0
+        for num in nums:
+            max_or |= num
         
-        dfs(0, [])
-        return res
+        def dfs(idx, curr):
+            if idx == len(nums):
+                return 1 if curr == max_or else 0
+            
+            include = dfs(idx + 1, curr | nums[idx])
+            exclude = dfs(idx + 1, curr)
+            return include + exclude
+        
+        return dfs(0, 0)

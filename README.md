@@ -291,6 +291,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/hithamalbasheir/LeetCode/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2502-sort-the-people](https://github.com/hithamalbasheir/LeetCode/tree/master/2502-sort-the-people) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/hithamalbasheir/LeetCode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [2599-take-k-of-each-character-from-left-and-right](https://github.com/hithamalbasheir/LeetCode/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2755-extra-characters-in-a-string](https://github.com/hithamalbasheir/LeetCode/tree/master/2755-extra-characters-in-a-string) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/hithamalbasheir/LeetCode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/hithamalbasheir/LeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
@@ -441,6 +442,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/hithamalbasheir/LeetCode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/hithamalbasheir/LeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2502-sort-the-people](https://github.com/hithamalbasheir/LeetCode/tree/master/2502-sort-the-people) |
+| [2599-take-k-of-each-character-from-left-and-right](https://github.com/hithamalbasheir/LeetCode/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2727-number-of-senior-citizens](https://github.com/hithamalbasheir/LeetCode/tree/master/2727-number-of-senior-citizens) |
 | [2755-extra-characters-in-a-string](https://github.com/hithamalbasheir/LeetCode/tree/master/2755-extra-characters-in-a-string) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/hithamalbasheir/LeetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
@@ -566,6 +568,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0567-permutation-in-string](https://github.com/hithamalbasheir/LeetCode/tree/master/0567-permutation-in-string) |
 | [1046-max-consecutive-ones-iii](https://github.com/hithamalbasheir/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/hithamalbasheir/LeetCode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
+| [2599-take-k-of-each-character-from-left-and-right](https://github.com/hithamalbasheir/LeetCode/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/hithamalbasheir/LeetCode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Strongly Connected Component
 |  |

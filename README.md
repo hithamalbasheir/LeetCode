@@ -9,3 +9,18 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
  - Hüsam: [GitHub](https://github.com/husamahmud) - [LinkedIn](https://www.linkedin.com/in/husamahmud/)
 
  Happy coding! 🚀
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/hithamalbasheir/LeetCode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
+## Hash Table
+|  |
+| ------- |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/hithamalbasheir/LeetCode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
+## Bit Manipulation
+|  |
+| ------- |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/hithamalbasheir/LeetCode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
+<!---LeetCode Topics End-->

@@ -1,6 +1,15 @@
 class Solution:
     def pivotIndex(self, nums: List[int]) -> int:
-        for i in range(len(nums)):
-            if sum(nums[:i]) == sum(nums[i+1:]):
-                return i
-        return -1
+        #Pre-processing - prefix sum, post fix sum
+        res = -1
+        minimum_pivot = 1001
+        prefix = 0
+        sum_of_nums = sum(nums)
+        for i, num in enumerate(nums):
+            postfix = sum_of_nums - prefix - num
+            if prefix == postfix:
+                if num < minimum_pivot:
+                    minimum_pivot = num
+                    res = i
+            prefix += num
+        return res
